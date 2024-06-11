@@ -1,0 +1,64 @@
+body {
+    background: url('8ebbc6746a43bf62aea98de97836fab2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 60px;
+    text-align: center;
+    max-width: 700px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.heart-image {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff4d4d;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #e43d3d;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
