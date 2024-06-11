@@ -9,6 +9,7 @@ body {
     font-family: 'Great Vibes', cursive;
     color: #333;
     text-align: center;
+    overflow: hidden;
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
     text-align: center;
     max-width: 700px;
     animation: fadeIn 1s ease-in-out;
+    overflow: hidden;
 }
 
 .heart-image {
@@ -65,6 +67,11 @@ button:hover {
 
 .hidden {
     display: none;
+}
+
+#photoContainer {
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .our-photo {
