@@ -24,5 +24,6 @@ document.getElementById('surpriseButton').addEventListener('click', function() {
     // Mostrar a foto após um pequeno atraso para sincronizar com os confetes
     setTimeout(function() {
         document.getElementById('photoContainer').classList.remove('hidden');
+        document.getElementById('photoContainer').scrollIntoView({ behavior: 'smooth' });
     }, 1000);
 });
