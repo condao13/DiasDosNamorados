@@ -1,5 +1,5 @@
 document.getElementById('surpriseButton').addEventListener('click', function() {
-    var duration = 250;
+    var duration =250   ;
     var end = Date.now() + duration;
 
     (function frame() {
@@ -20,4 +20,9 @@ document.getElementById('surpriseButton').addEventListener('click', function() {
             requestAnimationFrame(frame);
         }
     }());
+
+    // Mostrar a foto após um pequeno atraso para sincronizar com os confetes
+    setTimeout(function() {
+        document.getElementById('photoContainer').classList.remove('hidden');
+    }, 1000);
 });
