@@ -9,7 +9,7 @@ body {
     font-family: 'Great Vibes', cursive;
     color: #333;
     text-align: center;
-    overflow: hidden;
+    overflow-x: hidden; /* impede o overflow horizontal */
 }
 
 .container {
@@ -21,6 +21,8 @@ body {
     max-width: 700px;
     animation: fadeIn 1s ease-in-out;
     overflow: hidden;
+    max-height: 90vh; /* assegura que o container não exceda a altura da viewport */
+    overflow-y: auto; /* permite a rolagem vertical */
 }
 
 .heart-image {
